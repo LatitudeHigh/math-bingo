@@ -1,0 +1,119 @@
+canvas {
+    border: 5px solid #ffffff;
+    display: none;
+    vertical-align: top;
+    box-shadow: 0 0 10px 5px white;
+}
+
+/* REMOVE if you don't want to show console */
+pre {
+    border: 1px solid black;
+    display: inline-block;
+    width: 400px;
+    height: 500px;
+    background-color: #F5F5F5;
+}
+h1 {
+  text-align: center;
+  font-family: 'Permanent Marker', cursive;
+}
+div {
+  text-align: center;
+}
+h1 {
+  font-size: 60px;
+}
+.glow {
+  font-size: 80px;
+  color: black;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #FFFFFF, 0 0 40px #FFFFFF, 0 0 50px #FFFFFF, 0 0 60px #FFFFFF, 0 0 70px #FFFFFF;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #FFFFFF, 0 0 40px #FFFFFF, 0 0 50px #FFFFFF, 0 0 60px #FFFFFF, 0 0 70px #FFFFFF, 0 0 80px #FFFFFF;
+  }
+}
+.glow1 {
+  font-size: 20px;
+  color: black;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow1 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #FFFFFF, 0 0 40px #FFFFFF, 0 0 50px #FFFFFF, 0 0 60px #FFFFFF, 0 0 70px #FFFFFF;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #FFFFFF, 0 0 40px #FFFFFF, 0 0 50px #FFFFFF, 0 0 60px #FFFFFF, 0 0 70px #FFFFFF, 0 0 80px #FFFFFF;
+  }
+}
+.glow2 {
+  font-size: 60px;
+  color: black;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow2 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #FFFFFF, 0 0 40px #FFFFFF, 0 0 50px #FFFFFF, 0 0 60px #FFFFFF, 0 0 70px #FFFFFF;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #FFFFFF, 0 0 40px #FFFFFF, 0 0 50px #FFFFFF, 0 0 60px #FFFFFF, 0 0 70px #FFFFFF, 0 0 80px #FFFFFF;
+  }
+}
+      
+      body {
+        background-color: black
+           }
+
+#myBtn, #musicBtn{
+  background-color: #ffffff;
+  font-size: 40px;
+  font-family: 'Permanent Marker', cursive;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: right;
+
+}
+#myBtn:hover {opacity: 1}
+#musicBtn:hover {opacity: 1}
+
+.myButton{
+  text-align: center;
+}
+
+.text{
+  color: white;
+  width: 50%;
+  margin: auto;
+}
+.imageBack{
+  background: url("/painting-with-anime-characters-of-different-genres-anime-live-wallpaper-download-free-31183.png")
+}
+
+h1{
+  color: black;
+}
+h3{
+  color: black;
+}
+
+.blank{
+  opacity: 0;
+}
